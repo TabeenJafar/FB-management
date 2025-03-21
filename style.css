@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Main Artboard</title>
-<style>
 body {
     font-family: sans-serif;
     margin: 0;
@@ -120,61 +115,3 @@ body {
 .activity-feed li:last-child {
     border-bottom: none;
 }
-</style>
-</head>
-<body>
-
-<div class="sidebar">
-    <div class="logo">LOGO</div>
-    <a href="#">Dashboard</a>
-    <a href="#">Match Schedule</a>
-    <a href="#">Incident Report</a>
-    <a href="#">Displinary Action</a>
-    <a href="#">Upcoming Matches</a>
-    <a href="#">Submit Results</a>
-    <a href="#">Match Statistics</a>
-    <a href="#">Setting</a>
-</div>
-
-<div class="content">
-    <div class="widget match-overview">
-        <h2>Match overview Widget</h2>
-        <ul>
-            <li>Manchester United VS Liverpool</li>
-            <li>Arsenal Tigers VS Real Madrid</li>
-            <li>Sheffield United VS Barcelona</li>
-        </ul>
-    </div>
-
-    <div class="widget incident-form">
-        <h2>Incident Reporting Form</h2>
-        <input type="text" placeholder="Player Name">
-        <input type="text" placeholder="Team">
-        <input type="time">
-        <input type="submit" value="Submit">
-    </div>
-
-    <div class="widget disciplinary-action">
-        <h2>Displinary Action & Results</h2>
-        <button>Yellow Card</button>
-        <button>Red Card</button>
-        <h3>Match Result</h3>
-        <p>Team 1: </p>
-        <p>Team 2: </p>
-    </div>
-
-    <div class="widget activity-feed">
-        <h2>Recent Activity Feed</h2>
-        <ul>
-            <li>Recent Assignments & Reports Filed</li>
-            <li>submitted match results</li>
-            <li>reported an incident of foul</li>
-            <li>issued red card to xy player</li>
-            <li>reported an incident of other irregularity</li>
-            <li>submitted match results</li>
-        </ul>
-    </div>
-</div>
-
-</body>
-</html>
