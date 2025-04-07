@@ -16,10 +16,10 @@
         }
 
         .signin-container {
-            background-color: #ffffff;
+            background-color:rgb(219, 206, 206);
             padding: 40px;
             border-radius: 15px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 10px 25px rgba(126, 117, 162, 0.2);
             width: 100%;
             max-width: 350px;
         }
@@ -94,7 +94,7 @@
             <input type="submit" value="Sign In">
         </form>
         <div class="footer-text">
-            Don't have an account? <a href="#" style="color: #2575fc;">Sign up</a>
+            Don't have an account? <a href="#" style="color:rgb(38, 24, 242);">Sign up</a>
         </div>
     </div>
 </body>
