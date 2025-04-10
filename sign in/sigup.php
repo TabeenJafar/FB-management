@@ -1,5 +1,5 @@
 <?php
-// Create a simple user database (for the sake of example)
+
 session_start();
 
 // Dummy example - This should be replaced with actual database storage
@@ -18,8 +18,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Save user data (in a real application, save this to a database)
         $users[$username] = $password;
 
-        // For simplicity, redirect to sign-in page after successful sign-up
-        header("Location: signin.html");
+        
+        header("Location: login.php")
         exit();
     }
 }
